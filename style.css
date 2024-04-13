@@ -41,7 +41,8 @@ button:hover, form .btn-enviar input:hover{
     box-shadow:0px 0px 8px #8B4513 ;
     transform: scale(1.05);
     }
-    
+
+
 
 
 
@@ -125,8 +126,8 @@ section.habilidades .flex{
 }
 
 .habilidades .habilidades-box:hover{
-transform: scale(1.05);
-box-shadow: 0 0 8px #ffffff7c;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff7c;
 }
 .habilidades .habilidades-box i{
     font-size: 53px;
@@ -141,8 +142,8 @@ section.experiência{
     padding: 80px 4%;
 }
 section.experiência .flex{
-align-items: center;
-gap: 60px;
+        align-items: center;
+        gap: 60px;
 }
 
 .experiência .txt-experiência{
@@ -162,15 +163,15 @@ gap: 60px;
     text-align: justify;
 }
 .btn-social button{
-width: 60px;
-height: 60px;
-border-radius: 50%;
-border: none;
-background-color: #8B4513;
-font-size: 25px;
-cursor: pointer;
-margin: 0 5px;
-transition: 0.3s;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background-color: #8B4513;
+        font-size: 25px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: 0.3s;
 }
 
 /*meu portfólio*/
@@ -183,15 +184,15 @@ section.portfólio .flex{
     margin-top: 60px;
 }
 .img-port{
-    width: 360px;
-    height: 460px;
-    background-size: cover;
-    background-position: 100% 50%;
-position: relative;
-border-radius: 40px;
-cursor: pointer;
-transition: 8s;
-}
+        width: 360px;
+        height: 460px;
+        background-size: cover;
+        background-position: 100% 50%;
+        position: relative;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: 8s;
+    }
 /*
 .img-port :hover{
     background-position: 100% 100%;}
@@ -285,7 +286,8 @@ footer .line-footer p a{
     color: #fff;
     
 }
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1020px)
+{
     /*classes gerais*/
     .flex{
     flex-direction: column;
@@ -299,7 +301,7 @@ h2.titulo{
 }
     /*CABEÇALHO*/
     .menu-desktop, .btn-contato{
-        display: none;
+        display: block;
     }
 /*estilo do menu mobile*/
 .btn-abrir-menu i{
@@ -309,7 +311,7 @@ h2.titulo{
 .menu-mobile{
     background-color: #000;
     height: 100vh;
-    position:fixed;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 99999;
@@ -332,10 +334,9 @@ h2.titulo{
         color: #8B4513;
         font-size: 30px;
     }
-    .menu-mobile nav ul{
-    text-align: right;
-  
-    }
+
+.menu-mobile nav ul{
+    text-align: right;}
 .menu-mobile nav ul li a{
     color: #fff;
     font-size: 20px;
@@ -411,4 +412,5 @@ footer .line-footer {
     text-align: center;
 }
 }
+
 
